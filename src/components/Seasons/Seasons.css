@@ -1,0 +1,12 @@
+.seasons {
+  display: flex;
+  flex-direction: row;
+  color: #000;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.seasons__nav {
+  margin: 0 20px 0 20px;
+  font-size: 20px;
+}
