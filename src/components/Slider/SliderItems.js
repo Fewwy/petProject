@@ -6,5 +6,5 @@ const SliderItems = (props) => {
     </div>
   );
 }
- 
+
 export default SliderItems;
