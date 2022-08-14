@@ -21,17 +21,17 @@ const coctails = [
   {
     name: 'Mojito',
     season: 'summer',
-    src: "https://i.artfile.ru/4256x2832_717498_[www.ArtFile.ru].jpg",
+    src: "https://i.ibb.co/9yS6P2J/Mojito.jpg",
   },
 
   {
     name: 'Aperol Spritz',
     season: 'summer',
-    src: "https://static.cookist.it/wp-content/uploads/sites/21/2017/03/cookist-spritz.jpg",
+    src: "https://i.ibb.co/xS9B797/c2d075c2f3f222f3b95696354d6f1254.jpg",
   },
 
   {
-    name: 'whiskey cola',
+    name: 'Whiskey cola',
     season: 'summer',
     src: "https://wallup.net/wp-content/uploads/2019/09/930248-liquor-alcohol-spirits-poster-drinks-drink-whiskey.jpg",
   },

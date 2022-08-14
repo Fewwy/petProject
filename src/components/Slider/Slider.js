@@ -27,12 +27,12 @@ const Slider = () => {
   const summerArr = items.filter((item) => item.season === "summer");
   const GetSummerCoctails = () => {
     return (
-      summerArr.map(item => <SliderItems img={item.src} />)
+      summerArr.map(item => <SliderItems img={item.src} name={item.name} />)
     )
   }
   const GetCoctailsComponents = () => {
     return (
-      items.map(item => <SliderItems img={item.src} />)
+      items.map(item => <SliderItems img={item.src} name={item.name} />)
     )
   }
   const CurrentCoctails = () => {

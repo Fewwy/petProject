@@ -18,6 +18,16 @@ const Header = (props) => {
           Non alcoholic
         </a>
       </div>
+      <div className="header__container">
+        <form className="header__form">
+          <input className="header__input"></input>
+          <button className="header__button">Find</button>
+        </form>
+        <div className="header__entry">
+          <img className="header__entry_img"></img>
+          <button className="header__button">Sign in</button>
+        </div>
+      </div>
     </div>
   );
 };

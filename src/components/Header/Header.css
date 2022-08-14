@@ -2,16 +2,42 @@
   display: flex;
   align-items: center;
   height: 70px;
-  background-color: #29354B;
+  max-width: 1440px;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .header__nav {
   max-width: 1440px;
-  margin: 0 auto;
 }
 
 .header__nav_a {
-  color: #fff;
+  color: #29354B;
   margin-right: 30px;
+  font-size: 24px;
   text-decoration: none;
+}
+
+.header__container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.header__input {
+  width: 400px;
+  height: 30px;
+  border: 1px solid #29354B;
+  border-radius: 5px;
+}
+
+.header__button {
+  border: none;
+  background-color: #29354B;
+  border-radius: 5px;
+  height: 34px;
+  width: 70px;
+  color: #fff;
 }
