@@ -1,0 +1,28 @@
+.grid {
+  max-width: 1440px;
+  display: grid;
+  margin: 0 auto;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.grid__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  padding: 20px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.grid__img {
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 30px;
+  box-shadow: 10px 10px 20px rgb(195, 195, 195);
+}

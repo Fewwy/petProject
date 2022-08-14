@@ -12,7 +12,7 @@
 }
 
 .header__nav_a {
-  color: #29354B;
+  color: #29354b;
   margin-right: 30px;
   font-size: 24px;
   text-decoration: none;
@@ -29,15 +29,23 @@
 .header__input {
   width: 400px;
   height: 30px;
-  border: 1px solid #29354B;
+  border: 1px solid #29354b;
   border-radius: 5px;
 }
 
 .header__button {
   border: none;
-  background-color: #29354B;
+  background-color: #29354b;
+  font-size: 14px;
   border-radius: 5px;
   height: 34px;
   width: 70px;
   color: #fff;
+  transition: 0.3s ease-out;
+}
+
+.header__button:hover {
+  background-color: #ecebe9;
+  color: #29354b;
+  border: 2px solid #29354b;
 }

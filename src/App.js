@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Slider from './components/Slider/Slider';
 import Facts from './components/Facts/Facts';
+import Grid from './components/Grid/Grid';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Slider />
       <Facts />
+      <Grid />
     </div>
   );
 }

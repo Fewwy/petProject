@@ -1,11 +1,17 @@
-import './Grid.css';
+import "./Grid.css";
+import coctails from "../Coctails/Coctails";
+import GridItem from "./GridItem";
 
 const Grid = () => {
-  return ( 
-    <div>
+  const GridContainer = () => {
+    return (
+      coctails.map(item => <GridItem img={item.src_sqv} name={item.name} />)
+    )
+  };
 
-    </div>
-  );
-}
- 
+  return <div className="grid">
+    <GridContainer/>
+  </div>;
+};
+
 export default Grid;
