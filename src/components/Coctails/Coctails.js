@@ -41,6 +41,41 @@ const coctails = [
     src: "https://wallup.net/wp-content/uploads/2019/09/930248-liquor-alcohol-spirits-poster-drinks-drink-whiskey.jpg",
     src_sqv: "https://i.ibb.co/Phnpsc4/whiskey-sqv.jpg"
   },
+
+  {
+    name: 'Long island',
+    season: 'summer',
+    src: "https://i.ibb.co/m9PxbB7/long-island.jpg",
+    src_sqv: "https://i.ibb.co/gJKSysH/Long-Island-sqv.jpg"
+  },
+
+  {
+    name: 'Grasshopper',
+    season: 'summer',
+    src: "https://i.ibb.co/F3cf0kP/Grasshopper.jpg",
+    src_sqv: "https://i.ibb.co/SRZJ80b/Grasshopper-sqv.jpg"
+  },
+
+  {
+    name: 'Aviation',
+    season: 'summer',
+    src: "https://i.ibb.co/f8szKBc/aviation.jpg",
+    src_sqv: "https://i.ibb.co/T4j3rmy/aviation-sqv.jpg"
+  },
+
+  {
+    name: 'Rose',
+    season: 'summer',
+    src: "https://i.ibb.co/41NHy7Z/rose.jpg",
+    src_sqv: "https://i.ibb.co/KybkvYd/rose-sqv.jpg"
+  },
+
+  {
+    name: 'Grog',
+    season: 'winter',
+    src: "https://i.ibb.co/FDghykh/grog.jpg",
+    src_sqv: "https://i.ibb.co/xM9Nc7F/grog-sqv.jpg"
+  },
 ];
 
 export default coctails;

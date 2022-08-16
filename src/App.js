@@ -3,6 +3,8 @@ import Header from './components/Header/Header';
 import Slider from './components/Slider/Slider';
 import Facts from './components/Facts/Facts';
 import Grid from './components/Grid/Grid';
+import CoctailDescription from './components/CoctailDescription/CoctailDescription';
+import coctails from './components/Coctails/Coctails';
 
 function App() {
   return (

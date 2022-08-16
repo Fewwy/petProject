@@ -1,0 +1,6 @@
+.description-box {
+  max-width: 1440px;
+  height: 900px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
