@@ -1,14 +1,9 @@
-import CoctailDescription from "../CoctailDescription/CoctailDescription";
+import './Grid.css';
 
 const GridItem = (props) => {
 
-
-  const handleTransferData = (event) => {
-    
-  }
-
   return (
-    <button className="grid__container" onClick={handleTransferData}>
+    <button className="grid__container">
       <div
         className="grid__img"
         style={{backgroundImage: `url(${props.img})`}}

@@ -1,22 +1,24 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import header from "./Header.css";
+import StrongAlcohol from "../StrongAlcohol/StrongAlcohol";
+import Grid from "../Grid/Grid";
 
 const Header = (props) => {
   return (
     <div className="header">
       <div className="header__nav">
-        <a className="header__nav_a" href="/">
+        <Link className="header__nav_a" to="/">
           Home
-        </a>
-        <a className="header__nav_a" href="/strong-alcohol">
+        </Link>
+        <Link className="header__nav_a" to="/strong-alcohol">
           Strong alcohol
-        </a>
-        <a className="header__nav_a" href="/low-alcohol">
+        </Link>
+        <Link className="header__nav_a" to="/low-alcohol">
           Low alcohol
-        </a>
-        <a className="header__nav_a" href="/non-alcoholic">
+        </Link>
+        <Link className="header__nav_a" to="/non-alcoholic">
           Non alcoholic
-        </a>
+        </Link>
       </div>
       <div className="header__container">
         <form className="header__form">
