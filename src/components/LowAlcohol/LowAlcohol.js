@@ -1,16 +1,13 @@
-import coctails from "../Coctails/Coctails";
 import GridItem from "../Grid/GridItem";
 
-const LowAlcohol = () => {
-  const lowAlcoholCoctails = coctails.filter(
+const LowAlcohol = (props) => {
+  const lowAlcoholCoctails = props.arr.filter(
     (item) => item.class === "low_alk"
   );
 
-  console.log(lowAlcoholCoctails);
-
   const GridContainer = () => {
-    return lowAlcoholCoctails.map((item) => (
-      <GridItem img={item.src_sqv} name={item.name} />
+    return lowAlcoholCoctails.map((item, index) => (
+      <GridItem img={item.src_sqv} name={item.name} key={`gridItem${index + 1}`} />
     ));
   };
 

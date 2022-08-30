@@ -1,17 +1,13 @@
-
-import coctails from "../Coctails/Coctails";
 import GridItem from "../Grid/GridItem";
 
-const StrongAlcohol = () => {
-  const strongAlcoholCoctails = coctails.filter(
+const StrongAlcohol = (props) => {
+  const strongAlcoholCoctails = props.arr.filter(
     (item) => item.class === "str_alk"
   );
-
-  console.log(strongAlcoholCoctails);
-
+  
   const GridContainer = () => {
-    return strongAlcoholCoctails.map((item) => (
-      <GridItem img={item.src_sqv} name={item.name} />
+    return strongAlcoholCoctails.map((item, index) => (
+      <GridItem img={item.src_sqv} name={item.name} key={`gridItem${index + 1}`} />
     ));
   };
 

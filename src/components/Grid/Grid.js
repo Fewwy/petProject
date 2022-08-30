@@ -4,16 +4,23 @@ import GridItem from "./GridItem";
 import { useState } from "react";
 
 const Grid = () => {
+  const [filteredCoctails, setFilteredCoctails] = useState(coctails);
 
   const GridContainer = () => {
-    return (
-      coctails.map(item => <GridItem img={item.src_sqv} name={item.name} />)
-    )
+    return filteredCoctails.map((item, index) => (
+      <GridItem
+        img={item.src_sqv}
+        name={item.name}
+        key={`gridItem${index + 1}`}
+      />
+    ));
   };
 
-  return <div className="grid">
-    <GridContainer />
-  </div>;
+  return (
+    <div className="grid">
+      <GridContainer />
+    </div>
+  );
 };
 
 export default Grid;
