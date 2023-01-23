@@ -1,7 +1,5 @@
 import "./Slider.css";
-import { useEffect, useRef, useState } from "react";
-import coctails from "../Coctails/Coctails";
-import Seasons from "../Seasons/Seasons";
+import { useRef } from "react";
 import SliderItems from "./SliderItems";
 
 const Slider = (props) => {
@@ -51,12 +49,12 @@ const Slider = (props) => {
       <button
         className="slider__button slider__button_type_prev"
         onClick={prevHandler}
-      >{`<`}</button>
+      ></button>
       <button
         className="slider__button slider__button_type_next"
         onClick={nextHandler}
-      >{`>`}</button>
-      <Seasons />
+      ></button>
+      
     </div>
   );
 };

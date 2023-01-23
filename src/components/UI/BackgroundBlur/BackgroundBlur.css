@@ -1,0 +1,14 @@
+.backgroun-blur {
+  position: absolute;
+  width: 100%;
+  height: 120vw;
+  z-index: 2;
+  backdrop-filter: blur(8px);
+  display: none;
+  transition: .4s all;
+}
+
+.active {
+  display: block;
+  transition: .4s all;
+}

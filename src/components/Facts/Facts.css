@@ -1,8 +1,9 @@
 .facts {
   max-width: 1440px;
-  margin: 130px auto;
-  background-color: #4C8891;
+  margin: 130px auto 50px;
+  background-color: #8064917f;
   padding: 30px 0 30px 0;
+  border-radius: 15px;
 }
 
 .facts__header {

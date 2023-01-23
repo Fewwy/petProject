@@ -1,10 +1,15 @@
 .seasons {
   display: flex;
   flex-direction: row;
-  color: #000;
+  color: rgb(145, 145, 145);
   justify-content: center;
   margin: 0 auto;
-  padding: 30px 0 30px;
+  padding: 10px 200px 20px 200px;
+  background-color: #222222;
+  //background-color: #333338;
+  //border-radius: 15px;
+  //border-bottom-left-radius: 15px;
+  //border-bottom-right-radius: 15px;
 }
 
 .seasons__nav {

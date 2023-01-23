@@ -1,17 +1,18 @@
 import "./Grid.css";
-import coctails from "../Coctails/Coctails";
 import GridItem from "./GridItem";
-import { useState } from "react";
+import { useSelector } from "react-redux";
 
 const Grid = () => {
-  const [filteredCoctails, setFilteredCoctails] = useState(coctails);
+  const coctails = useSelector((state) => state.coctails);
 
   const GridContainer = () => {
-    return filteredCoctails.map((item, index) => (
+    return coctails.map((item, index) => (
       <GridItem
         img={item.src_sqv}
         name={item.name}
         key={`gridItem${index + 1}`}
+        id={item.id}
+        class={item.class}
       />
     ));
   };
