@@ -16,7 +16,8 @@ function App() {
   const [date, setDate] = useState();
   const [dateUpdate, setDateUpdate] = useState(false);
   const [popupSwitch, setPopupSwitch] = useState(false);
-
+//достать фетч из юз эффекта перенести этот фетч в отдельную папку для API
+//импортировать фетч функцию внутри разных элементов приложения
   useEffect(() => {
     fetch('http://worldtimeapi.org/api/timezone/Europe/Moscow')
       .then((res) => {
@@ -28,6 +29,8 @@ function App() {
       });
   }, [dateUpdate]);
 
+  //советую сделать отдельную папку под названием helpers
+  // положить в неё функции на подобии этой
   let currentDate = new Date(date);
   const month = currentDate.getMonth() + 1;
 
@@ -37,7 +40,10 @@ function App() {
   const fallArr = coctails.filter((item) => item.season === 'fall');
   const winterArr = coctails.filter((item) => item.season === 'winter');
   const springArr = coctails.filter((item) => item.season === 'spring');
+    //сделать один generic filter аляяяя вот это
+  const coctailFilter = coctails.filter((item, name) => item.season === name)
 
+  //вот это надо бы переписать и вынести в папку хелперс
   const coctailsOfSeason =
     month === 6 || month === 7 || month === 8
       ? summerArr
