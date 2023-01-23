@@ -1,4 +1,12 @@
 .app {
   text-align: center;
-  background-color: #ECEBE9;
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
+  //background-color: #ECEBE9;
+  //background-color: #121212;
+  background-image: url(./components/UI/Images/fon9.jpg);
+  background-size: initial;
+  backdrop-filter: blur(80px);
+  margin: 0 auto;
 }

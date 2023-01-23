@@ -1,8 +1,10 @@
 .slider {
   margin: 0 auto;
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
   position: relative;
+  box-shadow: 1px 60px 100px #011324;
+  //border: 1px solid #02315E;
 }
 
 .slider__window {
@@ -18,11 +20,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   transition: ease-in-out 0.6s;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .slider__button {
-  width: 50px;
-  height: 50px;
+  width: 600px;
+  height: 90px;
   position: absolute;
   background-color: transparent;
   color: #fff;
@@ -36,11 +41,36 @@
 }
 
 .slider__button_type_prev {
-  top: 275px;
-  left: 25px;
+  top: 255px;
+  left: -255px;
+  background-image: url(../UI/Images/arrow2.png);
+  background-size: 5%;
+  background-position: center;
+  background-repeat: no-repeat;
+  rotate: 90deg;
 }
 
 .slider__button_type_next {
-  top: 275px;
-  right: 25px;
+  top: 255px;
+  right: -255px;
+  background-image: url(../UI/Images/arrow2.png);
+  background-size: 5%;
+  background-repeat: no-repeat;
+  background-position: center;
+  rotate: -90deg;
+}
+
+.slider__name {
+  color: #fff;
+  font-size: 42px;
+  margin: 55px 0 0 80px;
+  font-family: 'volkhovregular';
+  text-shadow: #000 5px 0 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider {
+    width: 1024px;
+    height: auto;
+  }
 }

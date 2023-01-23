@@ -1,0 +1,15 @@
+.facts {
+  max-width: 1440px;
+  margin: 130px auto 50px;
+  background-color: #8064917f;
+  padding: 30px 0 30px 0;
+  border-radius: 15px;
+}
+
+.facts__header {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: 'volkhovregular';
+  color: #fff;
+  font-size: 22px;
+}

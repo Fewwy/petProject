@@ -10,5 +10,5 @@ const Seasons = () => {
     </div>
   );
 }
- 
+
 export default Seasons;

@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'volkhovbold';
+  src: url('./fonts/volkhov-bold-webfont.woff2') format('woff2'),
+          url('./fonts/volkhov-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'volkhovregular';
+  src: url('./fonts/volkhov-regular-webfont.woff2') format('woff2'),
+          url('./fonts/volkhov-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
