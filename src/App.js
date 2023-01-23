@@ -31,6 +31,8 @@ function App() {
   let currentDate = new Date(date);
   const month = currentDate.getMonth() + 1;
 
+  console.log(coctails)
+
   const summerArr = coctails.filter((item) => item.season === 'summer');
   const fallArr = coctails.filter((item) => item.season === 'fall');
   const winterArr = coctails.filter((item) => item.season === 'winter');
